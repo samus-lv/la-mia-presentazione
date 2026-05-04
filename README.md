@@ -3,7 +3,7 @@
 Benvenuto nel mio capolavoro! Una pagina web che non solo mi presenta, ma ti sfida a **trascinare le descrizioni** sotto i titoli giusti, mentre puoi **cambiare stile** con un menu a tendina pieno di effetti divertenti.
 
 ## 🚀 Provala subito
-👉 [Clicca qui per vedere la pagina live](https://samus-lv.github.io/la-mia-presentazione/)
+👉 [Clicca qui per vedere la pagina live](https://samus-lv.github.io/la-mia-presentazione)
 
 ## ✨ Funzionalità
 - **Menu stile in alto a sinistra** – cambia colori, font, ruota la pagina, inverti i colori e effetti folli.
