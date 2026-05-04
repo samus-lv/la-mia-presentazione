@@ -198,35 +198,35 @@
 <div class="container">
     <!-- MENU A TENDINA -->
     <div class="dropdown">
-        <button class="dropbtn" id="menuBtn">🎨 Cambia stile ▼</button>
+        <button class="dropbtn" id="menuBtn">Cambia stile ▼</button>
         <div class="dropdown-content" id="myDropdown">
-            <button id="styleDefault">✨ Stile normale</button>
-            <button id="styleDark">🌙 Scuro (sfondo nero, testo chiaro)</button>
-            <button id="styleFontMono">📝 Font monospace</button>
-            <button id="styleRotate">🔄 Rotea la pagina (2°)</button>
-            <button id="styleInvert">🌈 Inverti colori</button>
-            <button id="styleCrazy">🤪 Effetto zoom + blur</button>
+            <button id="styleDefault">Stile normale</button>
+            <button id="styleDark">Scuro (sfondo nero, testo chiaro)</button>
+            <button id="styleFontMono">Font monospace</button>
+            <button id="styleRotate">Rotea la pagina (2°)</button>
+            <button id="styleInvert">Inverti colori</button>
+            <button id="styleCrazy">Effetto zoom + blur</button>
         </div>
     </div>
 
     <!-- TRE TITOLI CON ZONE DROP -->
     <div class="grid-titoli" id="gridTitoli">
         <div class="card" data-titolo="chi-sono">
-            <h2>📌 Chi sono</h2>
+            <h2>Chi sono</h2>
             <div class="drop-zone" data-target="chi-sono"></div>
         </div>
         <div class="card" data-titolo="dove-studio">
-            <h2>🎓 Dove studio</h2>
+            <h2>Dove studio</h2>
             <div class="drop-zone" data-target="dove-studio"></div>
         </div>
         <div class="card" data-titolo="esperienze">
-            <h2>💼 Esperienze lavorative</h2>
+            <h2>Esperienze lavorative</h2>
             <div class="drop-zone" data-target="esperienze"></div>
         </div>
     </div>
 
     <!-- AREA CON LE DESCRIZIONI TRASCINABILI (MESCOLATE ALL'INIZIO) -->
-    <h3 style="text-align:center;">✋ Trascina ogni descrizione sotto il titolo giusto ✋</h3>
+    <h3 style="text-align:center;">Trascina ogni descrizione sotto il titolo giusto</h3>
     <div class="drag-area" id="dragArea"></div>
 
     <div id="completionMsg" style="text-align:center;"></div>
@@ -335,7 +335,7 @@ const descrizioniRaw = [
 
                 // Se la descrizione è corretta per questo target? (opzionale: permettere anche abbinamenti sbagliati? ma il gioco è abbinare giusto)
                 if (descCorretto !== targetKey) {
-                    alert("❌ Abbinamento sbagliato! Questa descrizione non corrisponde a questo titolo. Prova con un altro.");
+                    alert("Abbinamento sbagliato! Questa descrizione non corrisponde a questo titolo. Prova con un altro.");
                     return;
                 }
 
@@ -386,7 +386,7 @@ const descrizioniRaw = [
         const allFilled = descrizioniPosizionate["chi-sono"] && descrizioniPosizionate["dove-studio"] && descrizioniPosizionate["esperienze"];
         const msgDiv = document.getElementById('completionMsg');
         if (allFilled && descrizioni.length === 0) {
-            msgDiv.innerHTML = '<div class="completion">🎉 COMPLIMENTI! Hai sistemato tutte le descrizioni correttamente! 🎉</div>';
+            msgDiv.innerHTML = '<div class="completion">COMPLIMENTI! Hai sistemato tutte le descrizioni correttamente!</div>';
         } else {
             msgDiv.innerHTML = '';
         }
