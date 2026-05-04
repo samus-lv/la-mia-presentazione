@@ -18,7 +18,7 @@ Benvenuto nel mio capolavoro! Una pagina web che non solo mi presenta, ma ti sfi
 
 ## Come installare in locale
 1. Clona la repo: `git clone https://github.com/samus-lv/la-mia-presentazione.git`
-2. Apri `index.html` nel browser – nessun server necessario.
+2. Una volta clonato, apri il file `index.html` nel tuo browser.
 
 ## Perché questo progetto è un capolavoro?
 Perché unisce **presentazione personale**, **gioco interattivo** e **personalizzazione grafica** in un’unica pagina, tutto girando su GitHub Pages senza backend. Inoltre il codice è pulito, commentato e divertente da esplorare.
