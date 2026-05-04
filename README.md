@@ -3,7 +3,7 @@
 Benvenuto nel mio capolavoro! Una pagina web che non solo mi presenta, ma ti sfida a **trascinare le descrizioni** sotto i titoli giusti, mentre puoi **cambiare stile** con un menu a tendina pieno di effetti divertenti.
 
 ## 🚀 Provala subito
-👉 [Clicca qui per vedere la pagina live](https://.github.io/nome-repository/)
+👉 [Clicca qui per vedere la pagina live](https://samus-lv.github.io/la-mia-presentazione/)
 
 ## ✨ Funzionalità
 - **Menu stile in alto a sinistra** – cambia colori, font, ruota la pagina, inverti i colori e effetti folli.
@@ -17,7 +17,7 @@ Benvenuto nel mio capolavoro! Una pagina web che non solo mi presenta, ma ti sfi
 - JavaScript vanilla (drag & drop, manipolazione del DOM, stili dinamici)
 
 ## 📦 Come installare in locale
-1. Clona la repo: `git clone https://github.com/tuo-username/nome-repository.git`
+1. Clona la repo: `git clone https://github.com/samus-lv/la-mia-presentazione.git`
 2. Apri `index.html` nel browser – nessun server necessario.
 
 ## 🧠 Perché questo progetto è un capolavoro?
@@ -25,6 +25,3 @@ Perché unisce **presentazione personale**, **gioco interattivo** e **personaliz
 
 ## 📸 Screenshot (opzionale)
 ![Anteprima della pagina](screenshot.png)
-
-## 📄 Licenza
-MIT – sentiti libero di ispirarti e migliorarlo.
